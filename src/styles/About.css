@@ -103,7 +103,9 @@
 
   .skills-icons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
     gap: 15px;
   }
 
