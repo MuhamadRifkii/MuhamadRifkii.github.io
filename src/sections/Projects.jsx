@@ -22,23 +22,6 @@ function Projects() {
         </div>
       </div>
       <div className="container-projects">
-        <img className="logo" src="/assets/react.svg" alt="Jikan Moe" />
-        <div>
-          <h3>Jikan Moe - React</h3>
-          <p>
-            Jikan (時間) is an unofficial & open-source API for the “most active
-            online anime + manga community and database” — MyAnimeList.
-          </p>
-          <a
-            href="https://github.com/MuhamadRifkii/jikan-moe-react"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-        </div>
-      </div>
-      <div className="container-projects">
         <img className="logo" src="/assets/moonlight.png" alt="Moonlight" />
         <div>
           <h3>Moonlight Android - Absolute Touch</h3>
@@ -50,6 +33,23 @@ function Projects() {
           </p>
           <a
             href="https://github.com/MuhamadRifkii/moonlight-android"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div className="container-projects">
+        <img className="logo" src="/assets/react.svg" alt="Jikan Moe" />
+        <div>
+          <h3>Jikan Moe - React</h3>
+          <p>
+            Jikan (時間) is an unofficial & open-source API for the “most active
+            online anime + manga community and database” — MyAnimeList.
+          </p>
+          <a
+            href="https://github.com/MuhamadRifkii/jikan-moe-react"
             target="_blank"
             rel="noopener noreferrer"
           >

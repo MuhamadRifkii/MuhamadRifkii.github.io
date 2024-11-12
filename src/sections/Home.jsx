@@ -10,14 +10,14 @@ function Home() {
           <TypeAnimation
             sequence={[
               "Welcome to my Website!",
-              500,
+              2500,
               "I'm a Web Developer",
-              500,
+              1000,
               "I'm a Mobile Developer",
-              500,
+              1000,
             ]}
             wrapper="span"
-            speed={250}
+            speed={50}
             style={{ fontSize: "2em", display: "inline-block" }}
             repeat={Infinity}
           />
