@@ -1,0 +1,16 @@
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.home-container {
+  text-align: center; /* Center text inside container */
+}
+
+.text {
+  max-width: 600px; /* Optional: limits text width for better readability */
+    text-shadow:
+    0 0 10px #fff
+}

@@ -1,0 +1,97 @@
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.introduction {
+  flex: 1;
+  /* font-size: 1.2em; */
+}
+
+
+.name {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: 24px;
+}
+
+.social-icon.github {
+  color: #fff;
+}
+
+.social-icon.linkedin {
+  color: #0077b5;
+}
+
+.experience-section,
+.skills-section {
+  margin: 20px 20px 0 0;
+  padding: 5px 20px 20px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #1f1f1f;
+}
+
+.experience-item {
+  margin-bottom: 10px;
+}
+
+.skills-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.skill-icon {
+  width: 40px;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .experience-section,
+  .skills-section {
+    padding: 15px;
+  }
+}
