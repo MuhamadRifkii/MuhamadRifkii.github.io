@@ -22,7 +22,7 @@ function Projects() {
         </div>
       </div>
       <div className="container-projects">
-        <img className="logo" src="/assets/react.png" alt="Jikan Moe" />
+        <img className="logo" src="/assets/react.svg" alt="Jikan Moe" />
         <div>
           <h3>Jikan Moe - React</h3>
           <p>

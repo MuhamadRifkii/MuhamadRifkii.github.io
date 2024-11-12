@@ -66,7 +66,8 @@ function About() {
           <img src="/assets/java.png" alt="Java" className="skill-icon" />
           <img src="/assets/kotlin.png" alt="Kotlin" className="skill-icon" />
           <img src="/assets/flutter.png" alt="Flutter" className="skill-icon" />
-          <img src="/assets/react.png" alt="React" className="skill-icon" />
+          <img src="/assets/react.svg" alt="React" className="skill-icon" />
+          <img src="/assets/vite.svg" alt="Vite" className="skill-icon" />
           <img src="/assets/laravel.png" alt="Laravel" className="skill-icon" />
         </div>
       </div>
