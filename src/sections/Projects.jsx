@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section id="projects">
       <div className="container-projects">
-        <img className="logo" src="/assets/logo.png" alt="Aquaculture" />
+        <img className="logo-aquaculture" src="/assets/aquaculture.png" alt="Aquaculture" />
         <div>
           <h3>Aquaculture Mate</h3>
           <p>

@@ -1,7 +1,7 @@
 .container-projects {
   display: flex;
   flex-direction: row;
-  margin: 20px 20px 0 0;
+  margin: 20px 20px 0 20px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -9,8 +9,14 @@
 }
 
 .logo {
-  width: 150px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.logo-aquaculture {
+  width: 120px;
+  height: 115px;
   margin-right: 20px;
 }
 
@@ -50,8 +56,15 @@
   }
   
   .logo {
-    width: 150px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .logo-aquaculture {
+    width: 100px;
+    height: 95px;
     margin-right: 0;
     margin-bottom: 20px;
   }

@@ -57,6 +57,15 @@ function About() {
               collaborative learning program.
             </p>
           </li>
+          <li className="experience-item">
+            <strong>
+              FullStack Web Development Cohort at CAMP Celerates 2024 Batch 1
+            </strong>
+            <p>
+              Focused on fullstack web development with React and Node.js as
+              part of a learning mastery program.
+            </p>
+          </li>
         </ul>
       </div>
 
