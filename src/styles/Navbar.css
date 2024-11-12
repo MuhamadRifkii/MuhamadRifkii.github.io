@@ -1,0 +1,30 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #111;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: start;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+nav ul li a.active {
+  color: #ff4c4c;
+  text-shadow:
+    0 0 10px #ff4c4c,
+    0 0 20px #ff4c4c,
+    0 0 30px #ff4c4c;
+}

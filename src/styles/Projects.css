@@ -2,15 +2,42 @@
   display: flex;
   flex-direction: row;
   margin: 20px 20px 0 0;
-  padding: 5px 20px 20px 20px;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #1f1f1f;
+  background-color: rgba(35, 35, 35, 0.9);
+}
+
+.logo {
+  width: 150px;
+  height: 140px;
+  margin-right: 20px;
+}
+
+.container-projects > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-projects > div h3 {
+  margin: 0;
+}
+
+.container-projects > div p {
+  margin: 10px 0;
+}
+
+.container-projects > div a {
+  text-align: end;
+  margin-top: auto;
+  text-decoration: none;
+  color: #ff4c4c;
 }
 
 @media (max-width: 768px) {
   .container-projects {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -18,5 +45,7 @@
   .logo {
     width: 150px;
     height: 140px;
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 }

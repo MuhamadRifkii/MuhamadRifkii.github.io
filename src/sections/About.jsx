@@ -1,9 +1,3 @@
-import profilePicture from "../assets/Profile.jpg";
-import javaIcon from "../assets/java.png";
-import kotlinIcon from "../assets/kotlin.png";
-import flutterIcon from "../assets/flutter.png";
-import reactIcon from "../assets/react.png";
-import laravelIcon from "../assets/laravel.png";
 import "../styles/About.css";
 
 function About() {
@@ -11,7 +5,11 @@ function About() {
     <section id="about">
       <div className="profile-container">
         <div className="profile-image">
-          <img src={profilePicture} alt="Profile" className="profile-img" />
+          <img
+            src="/assets/Profile.jpg"
+            alt="Profile"
+            className="profile-img"
+          />
         </div>
 
         <div className="introduction">
@@ -65,11 +63,11 @@ function About() {
       <div className="skills-section">
         <h3>Skills</h3>
         <div className="skills-icons">
-          <img src={javaIcon} alt="Java" className="skill-icon" />
-          <img src={kotlinIcon} alt="Kotlin" className="skill-icon" />
-          <img src={flutterIcon} alt="Flutter" className="skill-icon" />
-          <img src={reactIcon} alt="React" className="skill-icon" />
-          <img src={laravelIcon} alt="Laravel" className="skill-icon" />
+          <img src="/assets/java.png" alt="Java" className="skill-icon" />
+          <img src="/assets/kotlin.png" alt="Kotlin" className="skill-icon" />
+          <img src="/assets/flutter.png" alt="Flutter" className="skill-icon" />
+          <img src="/assets/react.png" alt="React" className="skill-icon" />
+          <img src="/assets/laravel.png" alt="Laravel" className="skill-icon" />
         </div>
       </div>
     </section>

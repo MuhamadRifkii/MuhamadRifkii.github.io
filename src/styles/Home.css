@@ -6,11 +6,11 @@
 }
 
 .home-container {
-  text-align: center; /* Center text inside container */
+  text-align: center;
 }
 
 .text {
-  max-width: 600px; /* Optional: limits text width for better readability */
+  max-width: 600px;
     text-shadow:
     0 0 10px #fff
 }

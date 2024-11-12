@@ -1,5 +1,26 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 #particles canvas {
@@ -7,37 +28,6 @@ html {
   height: 100%;
   width: 100%;
   position: absolute;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #111;
-  color: white;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: start;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  margin-right: 20px;
-  transition: color 0.3s;
-  cursor: pointer;
-}
-
-nav ul li a.active {
-  color: #ff4c4c;
-  text-shadow:
-    0 0 10px #ff4c4c,
-    0 0 20px #ff4c4c,
-    0 0 30px #ff4c4c;
 }
 
 section {
@@ -55,16 +45,16 @@ h1 {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #000000;
+    background-color: #000;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #333333;
+    background-color: #333;
     border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #555555;
+    background-color: #555;
 }
 
 @media (max-width: 768px) {

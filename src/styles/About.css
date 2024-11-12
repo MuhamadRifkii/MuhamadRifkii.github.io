@@ -19,9 +19,7 @@
 
 .introduction {
   flex: 1;
-  /* font-size: 1.2em; */
 }
-
 
 .name {
   margin-bottom: 10px;
@@ -51,7 +49,7 @@
   padding: 5px 20px 20px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #1f1f1f;
+  background-color: rgba(35, 35, 35, 0.9);
 }
 
 .experience-item {
@@ -90,8 +88,22 @@
     align-items: center;
   }
   
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
   .experience-section,
   .skills-section {
-    padding: 15px;
+    padding-left: 20px;
   }
+
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
 }
