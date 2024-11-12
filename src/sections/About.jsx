@@ -59,7 +59,7 @@ function About() {
           </li>
           <li className="experience-item">
             <strong>
-              FullStack Web Development Cohort at CAMP Celerates 2024 Batch 1
+              FullStack Web Development Cohort at CAMP Celerates 2024 Batch 2
             </strong>
             <p>
               Focused on fullstack web development with React and Node.js as
