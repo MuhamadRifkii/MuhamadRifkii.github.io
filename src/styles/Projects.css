@@ -36,6 +36,13 @@
   color: #ff4c4c;
 }
 
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: auto;
+}
+
 @media (max-width: 768px) {
   .container-projects {
     flex-direction: column;

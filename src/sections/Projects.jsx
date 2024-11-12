@@ -48,13 +48,23 @@ function Projects() {
             Jikan (時間) is an unofficial & open-source API for the “most active
             online anime + manga community and database” — MyAnimeList.
           </p>
-          <a
-            href="https://github.com/MuhamadRifkii/jikan-moe-react"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+          <div className="links">
+            <a
+              href="https://jikan-moe-react.vercel.app/anime"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vercel
+            </a>
+            <span className="separator">|</span>
+            <a
+              href="https://github.com/MuhamadRifkii/jikan-moe-react"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
         </div>
       </div>
     </section>
