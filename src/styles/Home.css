@@ -11,6 +11,15 @@
 
 .text {
   max-width: 600px;
-    text-shadow:
-    0 0 10px #fff
+  text-shadow: 0 0 10px #fff;
+}
+
+@media (min-width: 2200px) {
+  .text h1 {
+    font-size: 3rem;
+  }
+  .text {
+    max-width: 1200px;
+    font-size: 3rem;
+  }
 }

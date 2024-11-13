@@ -54,7 +54,8 @@
   transition: box-shadow 0.3s ease;
 }
 
-.experience-section:hover,.skills-section:hover {
+.experience-section:hover,
+.skills-section:hover {
   box-shadow: 0px 0px 3px 3px rgba(255, 76, 76, 0.8);
 }
 
@@ -82,6 +83,32 @@
   padding: 15px;
 }
 
+@media (min-width: 2200px) {
+  .introduction {
+    font-size: 2rem;
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .social-icon {
+    font-size: 48px;
+  }
+  .experience-section,
+  .skills-section {
+    font-size: 2rem;
+  }
+  .experience-item {
+    font-size: 2rem;
+  }
+  .skill-icon {
+    width: 60px;
+  }
+}
+
 @media (max-width: 768px) {
   .profile-container {
     display: flex;
@@ -94,14 +121,14 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .social-links {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
   }
-  
+
   .experience-section,
   .skills-section {
     padding-left: 20px;
@@ -114,5 +141,4 @@
     overflow: hidden;
     gap: 15px;
   }
-
 }

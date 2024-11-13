@@ -28,3 +28,15 @@ nav ul li a.active {
     0 0 20px #ff4c4c,
     0 0 30px #ff4c4c;
 }
+
+@media (min-width: 2200px) {
+  nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 40px;
+  transition: color 0.3s;
+  cursor: pointer;
+  font-size: 2rem;
+}
+}
